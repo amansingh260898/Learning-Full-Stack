@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third Card</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        width: 100vw;
+        height: 100vh;
+        background-color: cornflowerblue;
+        display: flex;
+        
+        align-items: center;
+        justify-content: center;
+    }
+    .card{
+        width: 55%;
+        height: 55%;
+
+        display: flex;
+        flex-direction: row;
+         background-color: white;
+        /* align-items: center;
+        justify-content: center; */
+
+    }
+    .leftBox{
+        width: 50%;
+        
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+        background-color: purple;
+        color: white;
+        gap: 80px;
+        /* text-align: center; */
+       
+        }
+    .text{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 80px;
+        width: 80%;
+        
+        max-width: 100%;  
+    }
+    .rightBox{
+        width: 50%;
+        height: 100%; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+    .imgBox {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+    .imgBox img{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        object-fit: cover; 
+    }
+    .statBox{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        gap: 50px;
+        width: 75%;
+        text-align: center;
+    }
+    .Box1, .Box2, .Box3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    
+        
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="card">
+            <div class="leftBox">
+                <div class="text">
+                    <h1>Get insight that help your bussiness grow</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum deserunt assumenda corrupti eius fuga? Aliquid voluptatum atque eum quo dolor?
+                    </p>
+                </div>
+                <div class="statBox">
+                    <div class="Box1">
+                        <h2>10k+</h2>
+                        <p>comments</p>
+                    </div>
+                    <div class="Box2">
+                        <h2>214</h2>
+                        <p>Paid users</p>
+                    </div>
+                    
+                    <div class="Box3">
+                        <h2>12M+</h2>
+                        <p>Views</p>
+                    </div>
+                </div>
+        
+            </div>
+
+            <div class="rightBox">
+                <div class="imgBox">
+                    <img src="Cards image/icon.jpg" />
+                </div>
+                
+            </div>
+        
+        </div>
+    
+    </div>
+
+    
+</body>
+</html>

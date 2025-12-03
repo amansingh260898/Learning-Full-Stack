@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --primary-color:brown;
+            --costum-width:330px;
+        }
+        .container{
+            background-color:beige ;
+            height: 650px;
+            border: solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+           
+            background-color: aquamarine;
+            width:var(--costum-width);
+            height: 330px;
+            border: 1px solid var(--primary-color);
+            margin: 5px; 
+            margin: 5px;
+            /* box-shadow: -10px -60px var(--primary-color); */
+            /* box-shadow: 10px 15px 50px brown; */
+            /* box-shadow: 10px 15px 5px 100px rgb(13, 45,66,0.7); */
+            /* box-shadow: inset 10px 15px brown; */
+            /* box-shadow:10px 15px red,15px 8px green; */
+        }
+        #head1{
+            /* text-shadow: 12px 13px 1px white; */
+            /* text-shadow: yellow 12px 13px 2px; */
+            /* text-shadow: white 12px 13px; */
+            text-shadow: 12px 13px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+
+         <div class="box"> 
+            <img src="logo.jpg" width="200px" height="100px" alt="">
+            <h2 id="head1">Welcome to Codehelp</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quibusdam labore dicta earum doloremque modi aliquam eos fuga asperiores ratione, debitis eius consequatur perferendis soluta excepturi nihil ullam distinctio fugit qui voluptate, iure sequi. Adipisci dignissimos commodi quas magni cum nisi blanditiis maxime ab, neque accusamus, ratione aperiam assumenda dolores.</p>
+         </div>
+    </div>
+</body>
+</html>
